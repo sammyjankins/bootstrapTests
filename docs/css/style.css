@@ -8,7 +8,7 @@ body{
 
 
 
-nav.links {
+div.links {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -16,7 +16,7 @@ nav.links {
     align-items: center;
   }
 
-  nav.links a {
+  div.links a {
     width: 30%;
     width: 7em;
     padding: 0.5em;
@@ -28,16 +28,16 @@ nav.links {
      font-size: 1.3em;
   }
 
-  nav.links a:hover, nav.links a:focus {
+  div.links a:hover, div.links a:focus {
     color: #FF3D00;
     text-decoration: none;
   }
 
-  nav.links a::before {
+  div.links a::before {
     display: none;
   }
 
-  nav.links .svg-inline--fa {
+  div.links .svg-inline--fa {
     margin-right: 0.5em;
   }
 
