@@ -5,39 +5,6 @@ body{
 	background-color: #fdfcfb;
 	font-weight: normal;
 }
-ul:after{
-	display:block;
-	content:' ';
-	clear:both;
-}
-ul.menu > li > a {
-	display: block;
-	padding: 10px;
-	text-decoration: none;
-}
-ul.submenu {
-	display: none;
-	position: absolute;
-	width: 170px;
-	top: 37px;
-	left: 0;
-	background-color: white;
-}
-ul.submenu > li {
-	display: block;
-}
-ul.submenu > li > a {
-	display: block;
-	padding: 10px;
-	text-decoration: none;
-}
-ul.submenu > li > a:hover {
-	text-decoration: underline;
-	font-style:bold;
-}
-#menu > li:hover > ul.submenu {
-	display: block;
-}
 
 
 
