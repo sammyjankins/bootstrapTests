@@ -1,0 +1,95 @@
+body{
+	font-family: 'Open sans', sans-serif;
+	font-size: 12px;
+	color: #868585;
+	background-color: #fdfcfb;
+	font-weight: normal;
+}
+ul:after{
+	display:block;
+	content:' ';
+	clear:both;
+}
+ul.menu > li > a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+ul.submenu {
+	display: none;
+	position: absolute;
+	width: 170px;
+	top: 37px;
+	left: 0;
+	background-color: white;
+}
+ul.submenu > li {
+	display: block;
+}
+ul.submenu > li > a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+ul.submenu > li > a:hover {
+	text-decoration: underline;
+	font-style:bold;
+}
+#menu > li:hover > ul.submenu {
+	display: block;
+}
+
+
+
+nav.links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    float:right;
+    align-items: center;
+  }
+
+  nav.links a {
+    width: 30%;
+    width: 7em;
+    padding: 0.5em;
+    color: rgba(255,255,255, 0.75);
+    background-color: #37474F;
+    border-radius: 0.5em;
+    text-decoration: none;
+    text-align: center;
+     font-size: 1.3em;
+  }
+
+  nav.links a:hover, nav.links a:focus {
+    color: #FF3D00;
+    text-decoration: none;
+  }
+
+  nav.links a::before {
+    display: none;
+  }
+
+  nav.links .svg-inline--fa {
+    margin-right: 0.5em;
+  }
+
+	.github::before {
+    font-family: "Font Awesome 5 Brands";  content: "\f09b";
+  }
+
+	.vk::before {
+    font-family: "Font Awesome 5 Brands";   content: "\f189";
+  }
+
+  .facebook::before {
+    font-family: "Font Awesome 5 Brands";   content: "\f082";
+  }
+
+  .mailto::before {
+    font-family: "Font Awesome 5 Regular"; content: "\f0e0";
+  }
+
+  .telegram::before {
+    font-family: "Font Awesome 5 Brands";  content: "\f3fe";
+  }
